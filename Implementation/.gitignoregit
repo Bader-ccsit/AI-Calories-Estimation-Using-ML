@@ -1,0 +1,11 @@
+git lfs untrack <path>...
+
+Stop tracking the given path(s) through Git LFS. The argument can be a
+glob pattern or a file path.
+
+Examples
+--------
+
+* Configure Git LFS to stop tracking GIF files:
+
+  git lfs untrack "*.gif"
