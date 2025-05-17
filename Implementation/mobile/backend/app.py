@@ -38,7 +38,7 @@ def load_local_calorie_data(csv_path="local_calories.csv"):
 LOCAL_CALORIE_DATA = load_local_calorie_data()
 
 # USDA API details
-USDA_API_KEY = "LtoxOqk42eP0vQR5B0sjl8uGoEeHbnE3jLxGFuBs"
+USDA_API_KEY = "" # Enter Your USDA API KEY 
 USDA_API_URL = "https://api.nal.usda.gov/fdc/v1/foods/search"
 
 def get_nutrition(food_item):
