@@ -23,8 +23,8 @@ cursor = conn.cursor()
 app.config['MAIL_SERVER'] = 'smtp.gmail.com'
 app.config['MAIL_PORT'] = 587
 app.config['MAIL_USE_TLS'] = True
-app.config['MAIL_USERNAME'] = 'calorieestimator0@gmail.com'
-app.config['MAIL_PASSWORD'] = 'qkxhrhklshogealg'
+app.config['MAIL_USERNAME'] = '' # Enter Your Email Here
+app.config['MAIL_PASSWORD'] = '' # Also Enter Your Password 
 mail = Mail(app)
 
 # Temporary storage for reset codes
